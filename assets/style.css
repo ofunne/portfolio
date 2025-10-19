@@ -1,0 +1,209 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code", "poppins", sans-serif;
+}
+
+:root{
+  --beige: #ddd3b7;
+}
+
+body {
+  background-color: rgb(255, 250, 254);
+}
+
+.header{
+  background-color: rgb(255, 246, 253);
+  box-shadow: 10px 10px 50px rgba(80, 0, 63, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 75px;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header button, .header a{
+  height: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 300px;
+  width:100%;
+  color: rgb(52, 0, 41);
+  background-color: rgb(255, 246, 253);
+  border:none;
+  display: inline- flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  position: relative;
+  z-index: 100;
+}
+
+.header button:hover{
+  background-color: rgb(255, 236, 250);
+  cursor: pointer;
+}
+
+.header button:active{
+  background-color: rgb(255, 223, 247);
+}
+
+.page{
+  margin: 100px 50px auto 50px;
+  text-align: center;
+  padding: 20px;
+  color:rgb(52, 0, 41);
+}
+
+h1{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 18px;
+  padding: 0.5rem;
+}
+
+#socials, #resume{
+  margin-top: 0;
+}
+
+#socials h2{
+  padding: 10px;
+}
+
+#resume h2{
+  padding-bottom: 20px;
+}
+
+#socials box-icon, #socials a{
+  font-size: 40px;
+  width: 100px;
+  height: 80px;
+  text-decoration: none;
+}
+
+.project{
+  margin: 50px auto;
+  border: 2px solid rgb(255, 11, 182);
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+h2{
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+ul{
+  font-size: 17px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+li{
+  padding-left: 30px;
+}
+
+#budget .container{
+  position: relative;
+  overflow:hidden;
+  width:100%;
+  padding-top: 56.25%;
+  margin: 30px auto;
+}
+
+#budget .video{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right:0;
+  width:100%;
+  height:100%;
+  border: 3px solid rgb(255, 11, 182);
+  border-radius: 15px;
+}
+
+.project box-icon{
+  font-size: 40px;
+  width: 70px;
+  height: 50px;
+}
+
+#blog-posts{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin-top: 0;
+}
+
+.blog-post{
+  border: 2px solid rgb(255, 11, 182);
+  padding: 0;
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px;
+  max-width: 800px;
+  background-color:rgb(255, 246, 253);
+}
+
+.blog-post h3{
+  padding: 10px;
+  color: rgb(52, 0, 41);
+  text-decoration: none;
+}
+
+.blog-post .blog-image{
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#contact-form{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#contact-form button{
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid rgb(255, 11, 182);
+  border-radius: 30px;
+  background-color: rgb(255, 236, 250);
+}
+
+#contact-form button:hover{
+  background-color: rgb(255, 223, 247);
+  cursor: pointer;
+}
+
+#contact-form button:active{
+  background-color: rgb(255, 200, 230);
+}
+
+#contact-form input, #contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid rgb(255, 11, 182);
+  border-radius: 10px;
+  background-color: rgb(255, 246, 253);
+}
+
+#contact-form input:focus, #contact-form textarea:focus{
+  outline: none;
+  background-color: rgb(255, 236, 250);
+}

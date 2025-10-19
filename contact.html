@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home | Ofunne's Portfolio</title>
+
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="header">
+      <a href="index.html">
+        <button class="home-button">Home</button>
+      </a>
+      <a href="projects.html">
+        <button class="projects-button">Projects</button>
+      </a>
+      <a href="blog.html">
+        <button class="blog-button">Blog</button>
+      </a>
+      <a href="contact.html">
+        <button class="contact-button">Contact</button>
+      </a>
+    </div>
+    
+    <div class="page" id="intro">
+      <h1>Contact Me</h1>
+      <p>Want to get into contact?</p>
+      <p>You can reach me using the form below.</p>
+    </div>
+    <div class="page" id="contact-form">
+      <form 
+        action="https://formspree.io/f/xzzjwbbb" 
+        method="POST"
+      >
+        <label for="name">
+          Your name:
+          <input type="text" id="name" name="name" required>
+        </label>
+        <label for="email">
+          Your email:
+          <input type="email" id="email" name="_replyto" required>
+        </label>
+        <label for="message">
+          Your message:
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit">
+          Send
+        </button>
+      </form>
+    </div>
+
+    <script src="/assets/script.js"></script>
+
+  </body>
+</html>
