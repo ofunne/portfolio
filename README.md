@@ -10,7 +10,7 @@ Welcome to my portfolio website!<br>
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=fff)
 
-### Page
+### Pages
 
 <b>Home:</b> This page serves as an introduction to the website (and to myself!). Here you can find links to my social media, as well as a copy of my current CV.<br>
 
